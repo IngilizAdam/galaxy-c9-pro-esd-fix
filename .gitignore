@@ -1,0 +1,13 @@
+# Samsung firmware and anything built from it is not redistributed here: download it and build locally (README).
+*.zip
+*.tar.md5
+*.img
+*.lz4
+*.apk
+unzipped/
+backup/
+fw/
+fw-*/
+fw-flash.*/
+work/
+__pycache__/
