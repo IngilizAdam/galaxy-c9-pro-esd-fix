@@ -5,6 +5,8 @@
 > China/HK bootloader also needs Samsung's CROM Service unlock; the image held a single DTB rather than several;
 > and changing BOOT triggered a one-time "Verification failed, reset" screen. The [README](../README.md) has the
 > procedure that actually worked.
+> **Superseded:** the patch described here (v1) makes the kernel crash whenever Always-On Display turns on or
+> off, contrary to what sections 1-2 say about AOD. Use v2 instead: see [v2-aod-crash-and-fix.md](v2-aod-crash-and-fix.md).
 
 # Galaxy C9 Pro (SM-C9000): disable the panel ESD check by patching the stock boot image
 
